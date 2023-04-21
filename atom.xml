@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>函数连续是逐点定义的</title>
+  
+  
+  <link href="http://serencounts.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://serencounts.github.io/"/>
+  <updated>2023-04-20T16:15:32.272Z</updated>
+  <id>http://serencounts.github.io/</id>
+  
+  <author>
+    <name>Arnold Zhang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>R&lt;2&gt;</title>
+    <link href="http://serencounts.github.io/post/R2.html"/>
+    <id>http://serencounts.github.io/post/R2.html</id>
+    <published>2023-04-20T15:45:52.857Z</published>
+    <updated>2023-04-20T16:15:32.272Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;R包&quot;&gt;&lt;a href=&quot;#R包&quot; class=&quot;headerlink&quot; title=&quot;R包&quot;&gt;&lt;/a&gt;R包&lt;/h2&gt;&lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程语言" scheme="http://serencounts.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="R" scheme="http://serencounts.github.io/tags/R/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>R语言入门</title>
+    <link href="http://serencounts.github.io/post/Rthirdpost.html"/>
+    <id>http://serencounts.github.io/post/Rthirdpost.html</id>
+    <published>2023-04-18T15:49:30.756Z</published>
+    <updated>2023-04-20T16:06:28.152Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;R安装&quot;&gt;&lt;a href=&quot;#R安装&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程语言" scheme="http://serencounts.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="R" scheme="http://serencounts.github.io/tags/R/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>群论</title>
+    <link href="http://serencounts.github.io/post/secondpost.html"/>
+    <id>http://serencounts.github.io/post/secondpost.html</id>
+    <published>2023-04-17T12:55:37.406Z</published>
+    <updated>2023-04-17T13:10:59.723Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;序言: 抽象代数(又称近世代数),是SYSU数学学院大二下开设的一门课程。&lt;br&gt;笔者正在进行抽象代数的学习,借助博客分享自己的学习笔记和心得还有题目。&lt;/p&gt;
+&lt;p&gt;推荐(当前正在用)的学习资料: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="数学专业课" scheme="http://serencounts.github.io/categories/%E6%95%B0%E5%AD%A6%E4%B8%93%E4%B8%9A%E8%AF%BE/"/>
+    
+    
+    <category term="代数学" scheme="http://serencounts.github.io/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数学分析0.1章</title>
+    <link href="http://serencounts.github.io/post/firstpost.html"/>
+    <id>http://serencounts.github.io/post/firstpost.html</id>
+    <published>2023-04-17T03:39:19.629Z</published>
+    <updated>2023-04-20T06:58:46.812Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;序言:&lt;br&gt;众所周知,数学分析是数学系的基础学科,在刚入学时,数学分析的学习过程不可谓不困难。本专栏旨在总结数学分析中的知识点以及笔者对数学分析的一点点理解,具体的证明亦可以参照书本。&lt;/p&gt;
+&lt;p&gt;推荐的国内教材: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="数学专业课" scheme="http://serencounts.github.io/categories/%E6%95%B0%E5%AD%A6%E4%B8%93%E4%B8%9A%E8%AF%BE/"/>
+    
+    
+    <category term="数学分析" scheme="http://serencounts.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>世界,你好!</title>
+    <link href="http://serencounts.github.io/post/hello-world.html"/>
+    <id>http://serencounts.github.io/post/hello-world.html</id>
+    <published>2023-04-16T11:35:05.453Z</published>
+    <updated>2023-04-17T06:39:14.387Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎光临我的博客空间,这是作为编辑的第零篇文章！从我的博客空间后续将上传一些代码以及学习笔记,欢迎指正!&lt;br&gt;测试数学公式的渲染效果：&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;a^2+b^2&amp;#x3D;c^2&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;数学公式的渲染效果一般.&lt;/p&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="第零篇笔谈" scheme="http://serencounts.github.io/categories/%E7%AC%AC%E9%9B%B6%E7%AF%87%E7%AC%94%E8%B0%88/"/>
+    
+    
+    <category term="随笔" scheme="http://serencounts.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
