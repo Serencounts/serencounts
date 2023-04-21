@@ -23,13 +23,18 @@
     <published>2023-04-20T15:45:52.857Z</published>
     <updated>2023-04-20T16:15:32.272Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="R包">R包</h2><h3 id="安装">安装</h3><ul><li>在线安装</li><li>源码安装</li></ul><p><a href="https://cran.r-project.org/web/packages/">官网</a></p><pre class="line-numbers language-console" data-language="console"><code class="language-console">&gt;install.package(&quot;name&quot;)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="使用">使用</h3>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html">&lt;h2 id=&quot;R包&quot;&gt;&lt;a href=&quot;#R包&quot; class=&quot;headerlink&quot; title=&quot;R包&quot;&gt;&lt;/a&gt;R包&lt;/h2&gt;&lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot;</summary>
-        
+    <summary type="html">&lt;h2 id=&quot;R包&quot;&gt;R包&lt;/h2&gt;
+&lt;h3 id=&quot;安装&quot;&gt;安装&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;在线安装&lt;/li&gt;
+&lt;li&gt;源码安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://cran.r-project.org/web/packages/&quot;&gt;官网&lt;/a&gt;&lt;</summary>
       
     
     
@@ -48,13 +53,14 @@
     <published>2023-04-18T15:49:30.756Z</published>
     <updated>2023-04-20T16:06:28.152Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="R安装">R安装</h2><p>Windows下借助一些包管理工具(例如winget，scoop等)可以方便地安装R语言编译解释环境。或者通过官网下载R以及编辑器Rstudio：</p><p><a href="https://www.r-project.org/">R语言官网</a></p><h2 id="RStudio-初始设置">RStudio 初始设置</h2><p>显示当前工作目录通过调用函数：</p><pre class="line-numbers language-Console" data-language="Console"><code class="language-Console">&gt;getwd()[1] &quot;C:&#x2F;Users&#x2F;genius&#x2F;Documents&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>设置默认工作目录(需要每次打开时键入):</p><pre class="line-numbers language-Console" data-language="Console"><code class="language-Console">&gt;setwd(dir &#x3D; &quot;工作目录&quot;)&gt;getwd()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>或者也可以在图形窗口按照命令修改即可。<a href="https://zhuanlan.zhihu.com/p/146355865">Rstudio修改工作目录</a></p><p>列出当前工作目录下的所有文件:</p><pre class="line-numbers language-console" data-language="console"><code class="language-console">&gt;list.files()<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>或者：</p><pre class="line-numbers language-console" data-language="console"><code class="language-console">&gt;dir()<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="变量操作">变量操作</h2><p>类似其他编程语言,使用加减乘除对常量进行方便地运算。</p><h3 id="变量赋值">变量赋值</h3><pre class="line-numbers language-console" data-language="console"><code class="language-console">&gt;x &lt;- 3<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>或者两个 ‘&lt;’ 符号表示对全局变量强制赋值:</p><pre class="line-numbers language-console" data-language="console"><code class="language-console">&gt;x &lt;&lt;- 3<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="函数">函数</h3><p>可以方便地调用函数对变量进行操作。</p>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html">&lt;h2 id=&quot;R安装&quot;&gt;&lt;a href=&quot;#R安装&quot; class=&quot;headerlink&quot;</summary>
-        
+    <summary type="html">&lt;h2 id=&quot;R安装&quot;&gt;R安装&lt;/h2&gt;
+&lt;p&gt;Windows下借助一些包管理工具(例如winget，scoop等)可以方便地安装R语言编译解释环境。或者通过官网下载R以及编辑器Rstudio：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.r-project.org</summary>
       
     
     
@@ -73,16 +79,16 @@
     <published>2023-04-17T12:55:37.406Z</published>
     <updated>2023-04-17T13:10:59.723Z</updated>
     
+    <content type="html"><![CDATA[<p>序言: 抽象代数(又称近世代数),是SYSU数学学院大二下开设的一门课程。<br>笔者正在进行抽象代数的学习,借助博客分享自己的学习笔记和心得还有题目。</p><p>推荐(当前正在用)的学习资料:</p><ul><li><a href="https://www.zhihu.com/column/c_1269028152392896512?utm_source=wechat_session&amp;utm_medium=social&amp;utm_oi=1474635592411181056">知乎抽象代数专栏</a><br><strong>不甚着重于证明部分,适合快速对定义以及定理进行了解或复习</strong></li><li><a href="https://www.bilibili.com/video/BV1Cz4y1Q7Mu/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&amp;vd_source=45458df81148cc4d699b0b2af9681501">哔哩哔哩抽象代数课程</a><br><strong>注意,该课程较为基础,希望读者自行斟酌!</strong></li><li><a href="https://www.zhihu.com/question/310507084/answer/2900128742?utm_campaign=shareopn&amp;utm_medium=social&amp;utm_oi=1474635592411181056&amp;utm_psn=1622250919738691584&amp;utm_source=wechat_session">知乎:书籍推荐</a><br><strong>笔者所用的书籍是科大版近世代数</strong></li></ul><pre class="line-numbers language-引用" data-language="引用"><code class="language-引用">合成法则是群论中最基础的<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h1>群论</h1>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html">&lt;p&gt;序言: 抽象代数(又称近世代数),是SYSU数学学院大二下开设的一门课程。&lt;br&gt;笔者正在进行抽象代数的学习,借助博客分享自己的学习笔记和心得还有题目。&lt;/p&gt;
-&lt;p&gt;推荐(当前正在用)的学习资料: &lt;/p&gt;
+    <summary type="html">&lt;p&gt;序言: 抽象代数(又称近世代数),是SYSU数学学院大二下开设的一门课程。&lt;br&gt;
+笔者正在进行抽象代数的学习,借助博客分享自己的学习笔记和心得还有题目。&lt;/p&gt;
+&lt;p&gt;推荐(当前正在用)的学习资料:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
+&lt;li&gt;&lt;a href=&quot;https://www.zh</summary>
       
     
     
@@ -101,16 +107,16 @@
     <published>2023-04-17T03:39:19.629Z</published>
     <updated>2023-04-20T06:58:46.812Z</updated>
     
+    <content type="html"><![CDATA[<p>序言:<br>众所周知,数学分析是数学系的基础学科,在刚入学时,数学分析的学习过程不可谓不困难。本专栏旨在总结数学分析中的知识点以及笔者对数学分析的一点点理解,具体的证明亦可以参照书本。</p><p>推荐的国内教材:</p><ul><li><a href="https://book.douban.com/subject/33459350/">《数学分析》陈纪修著</a>             以下简称zzs</li><li><a href="https://book.douban.com/subject/1130381/">《数学分析新讲》张筑生著</a>              以下简称cjx</li></ul><h1>实数系</h1><p>实数系简单地记作 $R$ , 本节主要重难点在于实数连续统的概念。</p><h2 id="实数">实数</h2><h3 id="定义">定义</h3><p><strong>定义出自zzs</strong></p><blockquote><p>在所有的无尽小数中，把彼此等同的无尽小数视为同一个数,这样就得到了实数。</p></blockquote><p>在国内的大部分教材中，实数集合的概念来自于对有理数集合的扩充(有理数系对加减乘除运算封闭)。我们将有理数集合简单地记作:<br>$$<br>Q=  ( \ \frac{p}{q} \ | \  p,q是任意互素的整数 \ )<br>$$。<br>显然(证明略), $\sqrt{2}$无法以有理数集合中的元素表示。因此对开方运算封闭需要对有理数系系进行扩充。(对运算封闭的概念参见cjx)。</p><h3 id="规范表示">规范表示</h3><p>任意实数有且仅有一种无穷小数的表现形式,可规范表现为:<br>$$<br>± a_0.a_1a_2\cdots a_n \cdots<br>$$</p><p>其中 $a_i$ 是 $0,1,\cdots 9$ 中任一数。<br>$$<br>\forall r \in R,<br>r= ± a_0.a_1a_2\cdots a_n \cdots<br>$$</p><h3 id="顺序比较">顺序比较</h3><p>称<br>$$<br>a_0.a_1a_2\cdots a_n \cdots=r_1 ＞ r_2=b_0.b_1b_2\cdots b_n \cdots<br>$$</p><p>若存在整数 $p$ :<br>$$<br>a_0\cdots a_{p-1} = b_0 \cdots b_{p-1} \quad but \  \  a_p&gt;b_p<br>$$</p><p>有了实数的规范表示与比较规则,我们可以进一步对实数系进行讨论.</p><h3 id="三岐性">三岐性</h3><p>以下三种情况在实数系中必有一种情况发生:</p><ul><li>a &gt; b</li><li>a = b</li><li>a &lt; b</li></ul><p>此外，这样的比较还有传递的性质:<br>$$<br>若a&gt;b,b&gt;c<br>则a&gt;c<br>$$</p><h3 id="稠密性">稠密性</h3><pre class="line-numbers language-定理" data-language="定理"><code class="language-定理">设 a，b是实数，且a&lt;b。在a与b中间可以找到一个有尽小数。满足 a &lt; b &lt; c<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>上述定理称为有理数的稠密性,注意a,b的无尽小数表示方法。证明的简单思路:</p><p>$$<br>存在 p \in Z, s.t.a_p&lt;b_p;<br>所以可以令 c_p =a_p +1;c_{p+1} \cdots =0<br>$$</p><p>事实上，对于实数系中任意两个实数，都能找到另一个实数介于这两个实数之间，这样的性质称为实数的稠密性。</p><p>考虑有理数和无理数的稠密性，不难发现有理数与无理数也是分别具有稠密性质的。</p><h3 id="连续性">连续性</h3><p>在论述实数连续性的性质前，我们需要对实数集合的一些性质加以论述。</p><p>首先，讨论上下界的概念。</p><pre class="line-numbers language-定义" data-language="定义"><code class="language-定义">设集合 E 是实数集合的子集且不为空集，如果存在实数 L，大于(小于)集合 E 中的任意元素 就称 L 是 E 的一个上(下)界。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>称一个集合是有界的，如果它既有上界又有下界。</p><p>有了上(下)界的概念之后，上下确界的定义也比较自然了。</p><p>首先，上确界是上界集合(即由集合E的上界组成的集合)中最小的元素，即最小上界。同理可以定义下确界的概念。</p><p>接下来就是有关实数集合连续性的论述,将留在下一章讲述。</p>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html">&lt;p&gt;序言:&lt;br&gt;众所周知,数学分析是数学系的基础学科,在刚入学时,数学分析的学习过程不可谓不困难。本专栏旨在总结数学分析中的知识点以及笔者对数学分析的一点点理解,具体的证明亦可以参照书本。&lt;/p&gt;
-&lt;p&gt;推荐的国内教材: &lt;/p&gt;
+    <summary type="html">&lt;p&gt;序言:&lt;br&gt;
+众所周知,数学分析是数学系的基础学科,在刚入学时,数学分析的学习过程不可谓不困难。本专栏旨在总结数学分析中的知识点以及笔者对数学分析的一点点理解,具体的证明亦可以参照书本。&lt;/p&gt;
+&lt;p&gt;推荐的国内教材:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
+&lt;li&gt;&lt;a href=&quot;http</summary>
       
     
     
@@ -129,16 +135,18 @@
     <published>2023-04-16T11:35:05.453Z</published>
     <updated>2023-04-17T06:39:14.387Z</updated>
     
+    <content type="html"><![CDATA[<p>欢迎光临我的博客空间,这是作为编辑的第零篇文章！从我的博客空间后续将上传一些代码以及学习笔记,欢迎指正!<br>测试数学公式的渲染效果：</p><p>$$<br>a^2+b^2=c^2<br>$$</p><p>数学公式的渲染效果一般.</p><pre class="line-numbers language-math" data-language="math"><code class="language-math">x&#x3D;\frac&#123;-b\pm\sqrt&#123;b^2-4ac&#125;&#125;&#123;2a&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>$$<br>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}<br>$$</p><p>检测渲染效果。</p><pre class="line-numbers language-Latex" data-language="Latex"><code class="language-Latex">ln \&#123; \prod_&#123;i&#x3D;1&#125;^&#123;n&#125; f(x_i;\theta)  &#x3D;\sum_&#123;i&#x3D;1&#125;^&#123;n&#125; \binom&#123;n&#125;&#123;k&#125; \prod_&#123;i&#x3D;1&#125;^&#123;k&#125; \frac&#123;1&#125;&#123;\sqrt&#123;2\pi&#125;&#125; \exp^&#123;-\frac&#123;x^2&#125;&#123;2&#125;&#125;p^k\prod_&#123;j&#x3D;1&#125;^&#123;n-k&#125; \frac&#123;1&#125;&#123;\pi (1+x_j^2)&#125;(1-p)^&#123;n-k&#125;\&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>$$<br>ln { \prod_{i=1}^{n} f(x_i;\theta)  =\sum_{i=1}^{n} \binom{n}{k} \prod_{i=1}^{k} \frac{1}{\sqrt{2\pi}} \exp^{-\frac{x^2}{2}}p^k\prod_{j=1}^{n-k} \frac{1}{\pi (1+x_j^2)}(1-p)^{n-k}}<br>$$</p>]]></content>
+    
     
       
       
-        
-        
-    <summary type="html">&lt;p&gt;欢迎光临我的博客空间,这是作为编辑的第零篇文章！从我的博客空间后续将上传一些代码以及学习笔记,欢迎指正!&lt;br&gt;测试数学公式的渲染效果：&lt;/p&gt;
-&lt;p&gt;$$&lt;br&gt;a^2+b^2&amp;#x3D;c^2&lt;br&gt;$$&lt;/p&gt;
+    <summary type="html">&lt;p&gt;欢迎光临我的博客空间,这是作为编辑的第零篇文章！从我的博客空间后续将上传一些代码以及学习笔记,欢迎指正!&lt;br&gt;
+测试数学公式的渲染效果：&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;
+a^2+b^2=c^2&lt;br&gt;
+$$&lt;/p&gt;
 &lt;p&gt;数学公式的渲染效果一般.&lt;/p&gt;
-&lt;pre</summary>
-        
+&lt;pre class</summary>
       
     
     
