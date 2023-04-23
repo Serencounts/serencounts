@@ -6,7 +6,7 @@
   <link href="http://serencounts.github.io/atom.xml" rel="self"/>
   
   <link href="http://serencounts.github.io/"/>
-  <updated>2023-04-22T15:30:57.926Z</updated>
+  <updated>2023-04-23T10:24:14.505Z</updated>
   <id>http://serencounts.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>怕什么真理无穷,进一寸有一寸的欢喜！</title>
+    <link href="http://serencounts.github.io/post/diary2.html"/>
+    <id>http://serencounts.github.io/post/diary2.html</id>
+    <published>2023-04-23T10:09:10.109Z</published>
+    <updated>2023-04-23T10:24:14.505Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;对未来做出一点简单地规划:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首要的目标是学习好专业课程，争取取得更高的GPA&lt;/li&gt;
+&lt;li&gt;其次，制定基本线路:Plan A争取保研；Plan B寻求出国读博机会；Plan</summary>
+        
+      
+    
+    
+    
+    <category term="日记" scheme="http://serencounts.github.io/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="随笔" scheme="http://serencounts.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>衾凤冷，枕鸳孤，愁肠待酒舒</title>
@@ -28,7 +56,8 @@
       
         
         
-    <summary type="html">&lt;p&gt;现在是23年四月二十二日晚上十一点左右,我坐在宿舍楼层中庭的自习区，刷着手机短视频，心里有股说不出的滋味，便麻醉在一个个风格迥异的短视频之中。&lt;br&gt;难以想象这两天我究竟过的有多浑浑噩噩，只记得昨日早晨九点我走进逸夫楼教室，今日颓然地从图书馆出来。可是，看到段子笑不出来，看</summary>
+    <summary type="html">&lt;p&gt;现在是23年四月二十二日晚上十一点左右,我坐在宿舍楼层中庭的自习区，刷着手机短视频，心里有股说不出的滋味，便麻醉在一个个风格迥异的短视频之中。&lt;br&gt;
+难以想象这两天我究竟过的有多浑浑噩噩，只记得昨日早晨九点我走进逸夫楼教室，今日颓然地从图书馆出来。可是，看到段子笑不出来，</summary>
         
       
     
@@ -53,8 +82,9 @@
       
         
         
-    <summary type="html">&lt;p&gt;序言:&lt;br&gt;众所周知,数学分析是数学系的基础学科,在刚入学时,数学分析的学习过程不可谓不困难。本专栏旨在总结数学分析中的知识点以及笔者对数学分析的一点点理解,具体的证明亦可以参照书本。&lt;/p&gt;
-&lt;p&gt;推荐的国内教材: &lt;/p&gt;
+    <summary type="html">&lt;p&gt;序言:&lt;br&gt;
+众所周知,数学分析是数学系的基础学科,在刚入学时,数学分析的学习过程不可谓不困难。本专栏旨在总结数学分析中的知识点以及笔者对数学分析的一点点理解,具体的证明亦可以参照书本。&lt;/p&gt;
+&lt;p&gt;推荐的国内教材:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a</summary>
         
@@ -81,7 +111,9 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;R安装&quot;&gt;&lt;a href=&quot;#R安装&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;R安装&quot;&gt;R安装&lt;/h2&gt;
+&lt;p&gt;Windows下借助一些包管理工具(例如winget，scoop等)可以方便地安装R语言编译解释环境。或者通过官网下载R以及编辑器Rstudio：&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
         
       
     
@@ -106,7 +138,13 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;R包&quot;&gt;&lt;a href=&quot;#R包&quot; class=&quot;headerlink&quot; title=&quot;R包&quot;&gt;&lt;/a&gt;R包&lt;/h2&gt;&lt;h3 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;R包&quot;&gt;R包&lt;/h2&gt;
+&lt;h3 id=&quot;安装&quot;&gt;安装&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;在线安装&lt;/li&gt;
+&lt;li&gt;源码安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a</summary>
         
       
     
@@ -131,8 +169,9 @@
       
         
         
-    <summary type="html">&lt;p&gt;序言: 抽象代数(又称近世代数),是SYSU数学学院大二下开设的一门课程。&lt;br&gt;笔者正在进行抽象代数的学习,借助博客分享自己的学习笔记和心得还有题目。&lt;/p&gt;
-&lt;p&gt;推荐(当前正在用)的学习资料: &lt;/p&gt;
+    <summary type="html">&lt;p&gt;序言: 抽象代数(又称近世代数),是SYSU数学学院大二下开设的一门课程。&lt;br&gt;
+笔者正在进行抽象代数的学习,借助博客分享自己的学习笔记和心得还有题目。&lt;/p&gt;
+&lt;p&gt;推荐(当前正在用)的学习资料:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a</summary>
         
@@ -159,8 +198,11 @@
       
         
         
-    <summary type="html">&lt;p&gt;欢迎光临我的博客空间,这是作为编辑的第零篇文章！从我的博客空间后续将上传一些代码以及学习笔记,欢迎指正!&lt;br&gt;测试数学公式的渲染效果：&lt;/p&gt;
-&lt;p&gt;$$&lt;br&gt;a^2+b^2&amp;#x3D;c^2&lt;br&gt;$$&lt;/p&gt;
+    <summary type="html">&lt;p&gt;欢迎光临我的博客空间,这是作为编辑的第零篇文章！从我的博客空间后续将上传一些代码以及学习笔记,欢迎指正!&lt;br&gt;
+测试数学公式的渲染效果：&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;
+a^2+b^2=c^2&lt;br&gt;
+$$&lt;/p&gt;
 &lt;p&gt;数学公式的渲染效果一般.&lt;/p&gt;
 &lt;pre</summary>
         
