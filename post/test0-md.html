@@ -1,0 +1,312 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Mathjax对数学公式的渲染 | 函数连续是逐点定义的</title><meta name="author" content="Arnold Zhang"><meta name="copyright" content="Arnold Zhang"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="利用Mathjax对博客公式进行渲染，存在着的一些问题以及解决方法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mathjax对数学公式的渲染">
+<meta property="og:url" content="http://serencounts.github.io/post/test0-md.html">
+<meta property="og:site_name" content="函数连续是逐点定义的">
+<meta property="og:description" content="利用Mathjax对博客公式进行渲染，存在着的一些问题以及解决方法">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://serencounts.github.io/medias/8.png">
+<meta property="article:published_time" content="2023-04-24T14:21:21.000Z">
+<meta property="article:modified_time" content="2023-04-24T15:52:25.864Z">
+<meta property="article:author" content="Arnold Zhang">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="BUTTERFLY">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://serencounts.github.io/medias/8.png"><link rel="shortcut icon" href="/./medias/h.png"><link rel="canonical" href="http://serencounts.github.io/post/test0-md.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"prismjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Mathjax对数学公式的渲染',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-04-24 23:52:25'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/mouse.css"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="函数连续是逐点定义的" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./medias/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/selftalk/"><i class="fa-fw fas fa-ghost"></i><span> 碎碎念</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/medias/8.png')"><nav id="nav"><span id="blog-info"><a href="/" title="函数连续是逐点定义的"><span class="site-name">函数连续是逐点定义的</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/selftalk/"><i class="fa-fw fas fa-ghost"></i><span> 碎碎念</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Mathjax对数学公式的渲染</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-24T14:21:21.000Z" title="发表于 2023-04-24 22:21:21">2023-04-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-24T15:52:25.864Z" title="更新于 2023-04-24 23:52:25">2023-04-24</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/">博客配置</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Mathjax对数学公式的渲染"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
+<p>注意：本篇来自于博主个人试错多次的经验总结，不一定正确！渲染使用Mathjax</p>
+</blockquote>
+<p>在利用Mathjax或者Katex对数学公式进行渲染的时候，不少朋友和我一样遇到了诸如 \\\\ 不能正常换行多行公式的问题。</p>
+<p>例如:</p>
+<pre class="line-numbers language-Markdown" data-language="Markdown"><code class="language-Markdown">$$
+(a+b)+c&#x3D;a+(b+c)\\
+&#x3D;(a+c)+b\\
+&#x3D;b+(a+c)
+$$<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>显示效果:</p>
+<script type="math/tex; mode=display">
+(a+b)+c=a+(b+c)\\
+=(a+c)+b\\
+=b+(a+c)</script><p>理想显示效果是:</p>
+<p>\begin{array}<br>    \ a+b+c=a+(b+c)\\<br>    =(a+c)+b\\<br>    =b+(a+c)<br>\end{array}</p>
+<p>作为一个新手小白针对这个问题，利用搜索引擎进行检索并照着各位博主的解决方法进行操作。运气好的时候一遍就成功，否则测试多少次都是bug。这里博主针对自己在求解过程中碰到的阻碍列出具体的解决方法。</p>
+<blockquote>
+<p>第一，也是最重要的一点，需要确认自己已安装的渲染器插件有哪些。</p>
+</blockquote>
+<p>不同的渲染器并存会产生冲突或错误。例如同时安装<br><mark class="hl-label default">hexo-renderer-markdown-it-plus</mark>  和<mark class="hl-label default">hexo-renderer-kramed</mark>  就会导致数学公式渲染出现如下错误:</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Serencounts/nostalgic/test/bug.png" alt="数学公式紊乱"></p>
+<blockquote>
+<p>解决方法，查看并卸载会起冲突的渲染器</p>
+</blockquote>
+<pre class="line-numbers language-终端" data-language="终端"><code class="language-终端">npm list
+npm uninstall hexo-renderer-markdown-it-plus
+npm fund<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p><strong>注意</strong> 这里博主更推荐留下并使用kramed插件，因为后续有方法解决多行公式换行的问题。</p>
+<p>至于配置<mark class="hl-label default">hexo-renderer-kramed</mark> 的教程有很多并且大同小异，建议谷歌搜索。</p>
+<p>这里主要想解决 \\\\ 在 $LaTeX$ 中的换行问题。</p>
+<blockquote>
+<p>其次，可以通过下面这篇文章对<mark class="hl-label default">inline.js</mark> 进行修改</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_44441126/article/details/119745642#2%20hexo-renderer-kramed%E6%B8%B2%E6%9F%93MathJax%E6%97%B6%E4%B8%8EMarkdown%E8%AF%AD%E6%B3%95%E5%86%B2%E7%AA%81">解决hexo-renderer-kramed渲染冲突的部分问题 | CSDN社区</a></p>
+<p>执行了上面的操作后可以发现，你的Hexo博客已经支持 $LaTeX$ 公式了并可以使用 ‘\\\\’ 进行换行！</p>
+<p>例如:</p>
+<pre class="line-numbers language-latex" data-language="latex"><code class="language-latex"><span class="token function selector">\begin</span><span class="token punctuation">&#123;</span><span class="token keyword">aligned</span><span class="token punctuation">&#125;</span>
+<span class="token function selector">\dot</span><span class="token punctuation">&#123;</span>x<span class="token punctuation">&#125;</span> <span class="token punctuation">&amp;</span> = <span class="token function selector">\sigma</span>(y-x) <span class="token function selector">\\</span>
+<span class="token function selector">\dot</span><span class="token punctuation">&#123;</span>y<span class="token punctuation">&#125;</span> <span class="token punctuation">&amp;</span> = <span class="token function selector">\rho</span> x - y - xz <span class="token function selector">\\</span>
+<span class="token function selector">\dot</span><span class="token punctuation">&#123;</span>z<span class="token punctuation">&#125;</span> <span class="token punctuation">&amp;</span> = -<span class="token function selector">\beta</span> z + xy
+<span class="token function selector">\end</span><span class="token punctuation">&#123;</span><span class="token keyword">aligned</span><span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>显示效果如下:</p>
+<p>\begin{aligned}<br>\dot{x} &amp; = \sigma(y-x) \\<br>\dot{y} &amp; = \rho x - y - xz \\<br>\dot{z} &amp; = -\beta z + xy<br>\end{aligned}</p>
+<p><strong>注意</strong> 修改的文件是kramed的配置文件，在markdown中需要打出双反斜线任然需要type four times，因为其中两个紧邻反斜线会被转义。</p>
+<p>此外，还有一点仍然无法解决，那就是markdown语法的行间公式的换行问题，即：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">$$
+(a+b)+c=a+(b+c)\\
+=(a+c)+b\\
+=b+(a+c)
+$$<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>在markdown语法中可以正常换行，但是由于一些原因(此处不详述，大概可能是markdown在渲染为html网页时出现的冲突)，在网页中无法成功换行。解决方法也十分简单，那就是：</p>
+<blockquote>
+<p>行间公式使用 $LaTeX$ 语法环境！</p>
+</blockquote>
+<p><strong>小注</strong> ： 博主对mathjax对markdown语法行间公式渲染‘\\\\’不能成功换行的问题之前在Mkdocs中也遇到过，貌似是Mathjax遗留的远古问题了。</p>
+<p>分享一份<a target="_blank" rel="noopener" href="https://www.osgeo.cn/mathjax/web/start.html">Mathjax使用文档</a>，希望能对这个数学工具有一定的了解。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://serencounts.github.io">Arnold Zhang</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://serencounts.github.io/post/test0-md.html">http://serencounts.github.io/post/test0-md.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://serencounts.github.io" target="_blank">函数连续是逐点定义的</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Hexo/">Hexo</a><a class="post-meta__tags" href="/tags/BUTTERFLY/">BUTTERFLY</a></div><div class="post_share"><div class="social-share" data-image="/medias/8.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/post/diary2.html" title="怕什么真理无穷,进一寸有一寸的欢喜！"><img class="cover" src="/medias/6m.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">怕什么真理无穷,进一寸有一寸的欢喜！</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/post/hello-world.html" title="世界,你好!"><img class="cover" src="/medias/bg.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-04-16</div><div class="title">世界,你好!</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/./medias/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Arnold Zhang</div><div class="author-info__description">木分絮语的博客空间❤</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><a id="card-info-btn" href="mailto:zhangjh325@mail2.sysu.edu.cn"><i class="fa fa-envelope"></i><span>Email Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/serencounts/" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://serencounts.github.io/atom.xml" target="_blank" title="RSS"><i class="fa fa-square-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎访问我的博客！</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/post/test0-md.html" title="Mathjax对数学公式的渲染"><img src="/medias/8.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Mathjax对数学公式的渲染"/></a><div class="content"><a class="title" href="/post/test0-md.html" title="Mathjax对数学公式的渲染">Mathjax对数学公式的渲染</a><time datetime="2023-04-24T14:21:21.000Z" title="发表于 2023-04-24 22:21:21">2023-04-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/diary2.html" title="怕什么真理无穷,进一寸有一寸的欢喜！"><img src="/medias/6m.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="怕什么真理无穷,进一寸有一寸的欢喜！"/></a><div class="content"><a class="title" href="/post/diary2.html" title="怕什么真理无穷,进一寸有一寸的欢喜！">怕什么真理无穷,进一寸有一寸的欢喜！</a><time datetime="2023-04-23T10:09:10.109Z" title="发表于 2023-04-23 18:09:10">2023-04-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/diary1.html" title="衾凤冷，枕鸳孤，愁肠待酒舒"><img src="/medias/ko.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="衾凤冷，枕鸳孤，愁肠待酒舒"/></a><div class="content"><a class="title" href="/post/diary1.html" title="衾凤冷，枕鸳孤，愁肠待酒舒">衾凤冷，枕鸳孤，愁肠待酒舒</a><time datetime="2023-04-22T14:53:59.659Z" title="发表于 2023-04-22 22:53:59">2023-04-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/firstpost.html" title="数学分析0.1章"><img src="/medias/r.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="数学分析0.1章"/></a><div class="content"><a class="title" href="/post/firstpost.html" title="数学分析0.1章">数学分析0.1章</a><time datetime="2023-04-22T00:56:00.789Z" title="发表于 2023-04-22 08:56:00">2023-04-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/Rthirdpost.html" title="R环境安装"><img src="/medias/w.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="R环境安装"/></a><div class="content"><a class="title" href="/post/Rthirdpost.html" title="R环境安装">R环境安装</a><time datetime="2023-04-22T00:56:00.786Z" title="发表于 2023-04-22 08:56:00">2023-04-22</time></div></div></div></div></div></div></main><footer id="footer" style="background: linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Arnold Zhang</div><div class="footer_custom_text">酒醒只在花前坐,酒醉还来花下眠.</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container').forEach(node => {
+            if (node.hasAttribute('display')) {
+              btf.wrap(node, 'div', { class: 'mathjax-overflow' })
+            } else {
+              btf.wrap(node, 'span', { class: 'mathjax-overflow' })
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><script>function getGiscusTheme () {
+  return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
+}
+
+function loadGiscus () {
+  const config = Object.assign({
+    src: 'https://giscus.app/client.js',
+    'data-repo': 'serencounts/giscus',
+    'data-repo-id': 'R_kgDOJXr1Wg',
+    'data-category-id': 'DIC_kwDOJXr1Ws4CV1Bp',
+    'data-mapping': 'pathname',
+    'data-theme': getGiscusTheme(),
+    'data-reactions-enabled': '1',
+    crossorigin: 'anonymous',
+    async: true
+  },null)
+
+  let ele = document.createElement('script')
+  for (let key in config) {
+    ele.setAttribute(key, config[key])
+  }
+  document.getElementById('giscus-wrap').insertAdjacentElement('afterbegin',ele)
+}
+
+function changeGiscusTheme () {
+  function sendMessage(message) {
+    const iframe = document.querySelector('iframe.giscus-frame')
+    if (!iframe) return
+    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app')
+  }
+
+  sendMessage({
+    setConfig: {
+      theme: getGiscusTheme()
+    }
+  });
+}
+
+if ('Giscus' === 'Giscus' || !false) {
+  if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+  else loadGiscus()
+} else {
+  function loadOtherComment () {
+    loadGiscus()
+  }
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
