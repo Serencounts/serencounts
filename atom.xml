@@ -38,33 +38,6 @@
   </entry>
   
   <entry>
-    <title>收入-支出模型</title>
-    <link href="http://serencounts.github.io/post/economic2.html"/>
-    <id>http://serencounts.github.io/post/economic2.html</id>
-    <published>2023-04-26T13:30:31.000Z</published>
-    <updated>2023-04-26T16:28:31.693Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="均衡国民收入的决定"><a href="#均衡国民收入的决定" class="headerlink" title="均衡国民收入的决定"></a>均衡国民收入的决定</h1><h2 id="均衡国民收入决定原理"><a href="#均衡国民收入决定原理" class="headerlink" title="均衡国民收入决定原理"></a>均衡国民收入决定原理</h2><blockquote><p>市场经济下宏观经济各部分的循环流程</p></blockquote><p>在了解均衡国民收入（也就是实际GDP）的决定过程时，有必要了解经济体中各部分的相互作用。</p><p><img src="/medias/37.png" alt="封闭经济条件下经济各部分的循环流程图"></p><p>该图反映了收入与支出两个方面的均衡。当某个方面发生障碍时，就会有可能会发生局部的失衡，如果其他部分的活动不能及时地补救的话。</p><blockquote><p>国民收入和国民财富的生产</p></blockquote><p>一般说来，一国生产的全部产品和服务借助于市场交易，（市场经济下）就是该国的国民财富，同时也是该国的国民收入。</p><blockquote><p>国民收入和国民财富的分配</p></blockquote><p>国民收入和国民财富的分配首先决定于一国的基本经济制度（所有制及生产关系体系）和生产方式。</p><blockquote><p>市场经济条件下均衡国民收入的决定原理：供求决定</p></blockquote><h2 id="均衡国民收入决定的基本方向"><a href="#均衡国民收入决定的基本方向" class="headerlink" title="均衡国民收入决定的基本方向"></a>均衡国民收入决定的基本方向</h2><blockquote><p>需求充分条件下的基本方向：均衡国民收入决定于供给</p></blockquote><p>例如，物品相对匮乏的条件下，需求旺盛，于是均衡国民收入主要由经济中的总供给决定。</p><blockquote><p>供给充分条件下的基本方向：均衡国民收入决定于需求</p></blockquote><p>例如，经济萧条时，需求不足而供给有余，均衡国民收入由总需求水平决定。</p><blockquote><p>一般情况下：均衡国民收入由总需求与总供给共同决定</p></blockquote><p>来自一条西方主流经济学的折中路线，认为经济在短期内主要由有效性需求水平决定，而长期内主要由供给水平决定均衡国民收入的水平。</p><h2 id="两部门经济"><a href="#两部门经济" class="headerlink" title="两部门经济"></a>两部门经济</h2><p>均衡国民收入的决定原理是：均衡国门收入决定于总需求和总供给的相等，但在短期内或经济萧条中，总供给处于充裕状态或者基本无法变动状态。</p><p>凯恩斯短期均衡国民收入决定的基本原理是：短期内主要由总需求水平决定均衡国民收入水平。</p><p>总需求由四个重要部分构成：</p><ul><li>消费</li><li>投资</li><li>国外净需求（净出口）</li><li>政府支出</li></ul><p>从这些组成成分入手对简化的短期内均衡国民收入的决定进行具体分析。</p><p>此外，需要首先对封闭经济条件下的两部门经济做出如下必要假设：</p><ul><li>经济活动不存在政府和出口，只有家庭和企业部门</li><li>价格不变提供相同供给</li><li>假定没有折旧和公司未分配利润。</li><li>短期内</li></ul><p>在上述假设情况下，均衡国民收入只由居民消费和企业投资构成：</p><script type="math/tex; mode=display">Y = C +I</script><p>或者(这里代表除去价格因素变动后的实际产出或者居民收入)：</p><script type="math/tex; mode=display">\frac{Y}{P} = \frac{C}{P}+\frac{I}{P}</script><p>在国民收入（支出）核算中，实际国民收入就等于计划支出加上非计划存货投资。</p><p>但在这里，非计划存货投资为零。</p><p>也就是，均衡产出与总需求相一致。</p><p>社会处在经济均衡的收入水平上有：</p><script type="math/tex; mode=display">\begin{aligned}E &= Y \\Y &= C + I \\E &= C + I\end{aligned}\qquad 是互相等价的</script><p>如下图所示，总支出就是总需求，总产出就是总收入。</p><blockquote><p>均衡点就是计划总支出线与实际总支出的交点</p></blockquote><p><img src="/medias/044.png" alt="凯恩斯主义交叉图"></p><p>两线之间的差距表示非计划的存货量，不为零则经济非均衡状态。</p><p>此外，均衡状态下，计划投资等于计划储蓄。</p><script type="math/tex; mode=display">I = S</script><h1 id="家庭部门"><a href="#家庭部门" class="headerlink" title="家庭部门"></a>家庭部门</h1><p><em>消费是总需求中最主要的成分</em></p><h2 id="消费函数和消费倾向"><a href="#消费函数和消费倾向" class="headerlink" title="消费函数和消费倾向"></a>消费函数和消费倾向</h2><p>凯恩斯认为，消费水平主要由收入水平决定。</p><p><strong>经济基础决定上层建筑orz</strong></p><p>把消费同可支配收入的函数关系用公式表示：</p><script type="math/tex; mode=display">C = C(Y)</script><h3 id="平均消费倾向"><a href="#平均消费倾向" class="headerlink" title="平均消费倾向"></a>平均消费倾向</h3><p>以消费支出额占可支配收入额的比例来表示消费倾向：</p><script type="math/tex; mode=display">APC = \frac{C}{Y}</script><h3 id="边际消费倾向"><a href="#边际消费倾向" class="headerlink" title="边际消费倾向"></a>边际消费倾向</h3><p>增加的消费额与增加的可支配收入额之比：</p><script type="math/tex; mode=display">MPC = \frac{\Delta C}{\Delta Y}</script><p>当可支配收入额增加极少时：</p><script type="math/tex; mode=display">MPC = \frac{dC}{dY}</script><p><img src="/medias/245.png" alt="消费函数曲线"></p><p>如果曲线是线性的：</p><script type="math/tex; mode=display">C = \alpha + \beta Y</script><p>其中，$\alpha$ 表示利用储蓄或借贷也要的消费。</p><h2 id="储蓄函数与储蓄消费倾向"><a href="#储蓄函数与储蓄消费倾向" class="headerlink" title="储蓄函数与储蓄消费倾向"></a>储蓄函数与储蓄消费倾向</h2><p>储蓄是可支配收入中没有被消费的部分。</p><p>储蓄函数或者储蓄倾向表示为：</p><script type="math/tex; mode=display">S = S (Y)</script><h3 id="平均消费倾向-1"><a href="#平均消费倾向-1" class="headerlink" title="平均消费倾向"></a>平均消费倾向</h3><p>平均消费倾向是指任意一个可支配收入水平上的储蓄在可支配收入中所占的比率。</p><script type="math/tex; mode=display">APS = \frac{S}{Y}</script><p><img src="/medias/810.png" alt="储蓄函数曲线"></p><h3 id="边际储蓄倾向"><a href="#边际储蓄倾向" class="headerlink" title="边际储蓄倾向"></a>边际储蓄倾向</h3><p>同样地，边际储蓄倾向是储蓄增量对于可支配收入增量的比率：</p><script type="math/tex; mode=display">MPS = \frac{\Delta S}{\Delta Y}</script><p>如果增量极小情况下：</p><script type="math/tex; mode=display">MPS = \frac{dS}{dY}</script><blockquote><p>如果消费函数呈线性，显然储蓄函数也成线性</p></blockquote><script type="math/tex; mode=display">S = Y - C = Y - (\alpha + \beta Y) = - \alpha +(1- \beta Y)</script><h2 id="消费函数与储蓄函数的关系"><a href="#消费函数与储蓄函数的关系" class="headerlink" title="消费函数与储蓄函数的关系"></a>消费函数与储蓄函数的关系</h2><p>其实很简单,二者互补：</p><script type="math/tex; mode=display">Y = C(Y) + S(Y)</script><h2 id="家庭消费函数和社会消费函数"><a href="#家庭消费函数和社会消费函数" class="headerlink" title="家庭消费函数和社会消费函数"></a>家庭消费函数和社会消费函数</h2><p>在限制条件下，社会消费函数大致与家庭消费函数的加总相似。</p><h2 id="影响消费的其他因素"><a href="#影响消费的其他因素" class="headerlink" title="影响消费的其他因素"></a>影响消费的其他因素</h2><p>1.利率</p><p>2.价格水平</p><p>3.收入分配</p><p>4.预期</p><h2 id="其他消费理论"><a href="#其他消费理论" class="headerlink" title="其他消费理论"></a>其他消费理论</h2><p>T.B.C</p><h1 id="企业部门"><a href="#企业部门" class="headerlink" title="企业部门"></a>企业部门</h1><h1 id="三部门经济：政府部门"><a href="#三部门经济：政府部门" class="headerlink" title="三部门经济：政府部门"></a>三部门经济：政府部门</h1><h1 id="四部门经济：国外部门"><a href="#四部门经济：国外部门" class="headerlink" title="四部门经济：国外部门"></a>四部门经济：国外部门</h1><h1 id="乘数"><a href="#乘数" class="headerlink" title="乘数"></a>乘数</h1><h1 id="本章评析"><a href="#本章评析" class="headerlink" title="本章评析"></a>本章评析</h1>]]></content>
-    
-    
-    <summary type="html">宏观经济学第十章，收入-支出模型，比较精练的学习笔记</summary>
-    
-    
-    
-    <category term="宏观经济学" scheme="http://serencounts.github.io/categories/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
-    
-    
-    <category term="学习笔记" scheme="http://serencounts.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="T.B.C" scheme="http://serencounts.github.io/tags/T-B-C/"/>
-    
-    <category term="宏观经济学" scheme="http://serencounts.github.io/tags/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
-    
-    <category term="马工程西方经济学" scheme="http://serencounts.github.io/tags/%E9%A9%AC%E5%B7%A5%E7%A8%8B%E8%A5%BF%E6%96%B9%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>宏观经济的基本指标及其衡量</title>
     <link href="http://serencounts.github.io/post/economic.html"/>
     <id>http://serencounts.github.io/post/economic.html</id>
@@ -233,9 +206,9 @@
     
     <category term="R语言" scheme="http://serencounts.github.io/tags/R%E8%AF%AD%E8%A8%80/"/>
     
-    <category term="学习笔记" scheme="http://serencounts.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="环境搭建" scheme="http://serencounts.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="学习笔记" scheme="http://serencounts.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
